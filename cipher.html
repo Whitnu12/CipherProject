@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Cipher</title>
+  </head>
+  <body>
+    <!--after -->
+    <h1 class="text-4xl mb-4">Cipher</h1>
+    <form id="cipherForm" class="w-full max-w-sm">
+      <div class="md:flex md:items-center mb-6">
+        <div class="md:w-1/3">
+          <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name"> Text </label>
+        </div>
+      </div>
+      <div class="md:w-2/3">
+        <input type="text" id="name" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" />
+      </div>
+      <div class="md:flex md:items-center mb-6">
+        <div class="md:w-1/3">
+          <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-password"> Number of Key </label>
+        </div>
+        <div class="md:w-2/3">
+          <input type="text" id="number" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" />
+        </div>
+      </div>
+      <div class="md:flex md:items-center">
+        <div class="md:w-1/3"></div>
+        <div class="md:w-2/3">
+          <button class="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" id="startEncrypt" type="button">Start Encrypt</button>
+        </div>
+      </div>
+    </form>
+    <div class="text-5xl mt-5">
+      <h1 class="text-2xl">result</h1>
+      <div id="result"></div>
+    </div>
+  </body>
+  <script src="Cipher Program.js"></script>
+</html>

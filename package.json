@@ -1,0 +1,11 @@
+{
+  "name": "cipher",
+  "version": "1.0.0",
+  "description": "a program that used for convert text to cipher text",
+  "main": "Cipher Program.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
